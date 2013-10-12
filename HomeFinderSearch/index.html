@@ -13,9 +13,11 @@
         	<button type="submit" id="searchButon">Search</button><br/><br/>
         	<div id="options">
         		<label class="options">options:</label><br/>
-        		<label>pets:</label><br/>
-        		<input type="checkbox">cats<br/>
-        		<input type="checkbox">dogs<br/>
+        		<input type="button" id="opt1" value="pets" onclick="getElementById('pets').style.visibility='visible'"/><br/>
+        		<div id="pets" id="pets">
+        			<input type="checkbox" id="cats">cats<br/>
+        			<input type="checkbox" id="dogs">dogs<br/>
+        		</div>
         	</div>
         </form>
     </body>

@@ -22,3 +22,9 @@
 .options{
 	font-size: 18px;
 }
+#pets{
+	visibility: hidden;
+}
+.pets{
+	visibility: hidden;
+}
