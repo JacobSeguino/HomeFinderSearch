@@ -7,9 +7,16 @@
     </head>
     <body>
         <!-- <pre id="response"></pre> -->
-        <form>
-        	<input type="text" name="searchBar" value="">
+        <form id="searchDiv">
+        	<label>Location</label><br/>
+        	<input type="text" id="searchBar" placeholder="City, State or ZIP"/>
+        	<button type="submit" id="searchButon">Search</button><br/><br/>
+        	<div id="options">
+        		<label class="options">options:</label><br/>
+        		<label>pets:</label><br/>
+        		<input type="checkbox">cats<br/>
+        		<input type="checkbox">dogs<br/>
+        	</div>
         </form>
-        <div id="square"></div>
     </body>
 </html>
