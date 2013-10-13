@@ -7,7 +7,7 @@
 	border-radius:5px;
 	margin-left:0.5em;
 	height:22px;
-	background-color:lightblue;
+	background-color:#888888;
 }
 #searchDiv{
 	margin-left:300px;
@@ -15,15 +15,12 @@
 }
 #options{
 	border-radius:5px;
-	background-color:lightblue;
+	background-color:#888888;
 	width: 200px;
 	padding: 5px;
 }
 .options{
 	font-size: 18px;
-}
-#pets{
-	visibility: hidden;
 }
 .pets{
 	visibility: hidden;

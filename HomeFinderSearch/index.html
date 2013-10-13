@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="search.js" type="text/javascript"></script>
+        <script type="text/javascript" src="search.js"></script>
         <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-        <!-- <script src="" type="text/javascript"></script> -->
     </head>
     <body>
         <!-- <pre id="response"></pre> -->
         <form id="searchDiv">
         	<label>Location</label><br/>
-        	<input type="text" id="searchBar" placeholder="City, State or ZIP"/>
+        	<input type="text" name="area" id="searchBar" placeholder="City, State or ZIP"/>
         	<button type="submit" id="searchButon">Search</button><br/><br/>
         	<div id="options">
         		<label class="options">options:</label><br/>
-        		<input type="button" id="opt1" value="pets" onclick="getElementById('pets').style.visibility='visible'"/><br/>
-        		<div id="pets" id="pets">
-        			<input type="checkbox" id="cats">cats<br/>
-        			<input type="checkbox" id="dogs">dogs<br/>
+        		<input type="button" id="opt1" value="pets""/><br/>
+        		<div id="pets">
+        			<input name="areCatsAllowed" type="checkbox" id="cats" value="true">cats<br/>
+        			<input name="areDogsAllowed" type="checkbox" id="dogs" value="true">dogs<br/>
         		</div>
         	</div>
         </form>
+        <div id="test">test</div>
     </body>
 </html>
