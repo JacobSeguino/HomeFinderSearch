@@ -18,7 +18,7 @@ $(document).ready(function(){
 		apiUrl= apiUrl + apiKey;
 		
 		$.getJSON(apiUrl, function(jd) {
-	        $('#test').html('<p> Name: ' + jd.name + '</p>');
+	        $('#test').html('<p> Name: ' + jd.status + '</p>');
 	    });	
 	});
 	
